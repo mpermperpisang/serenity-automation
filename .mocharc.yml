@@ -1,0 +1,6 @@
+require:
+  - ts-node/register
+  - support/config.ts
+reporter: '@serenity-js/mocha'
+spec: 'spec/**/*.spec.ts'
+timeout: 5000
