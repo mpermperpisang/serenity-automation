@@ -6,7 +6,6 @@ DOCKERRM=$(DOCKERCMD) rm
 
 # Docker section
 docker: docker-alias-rm docker-build docker-run
-docker-clone: folder docker-cp
 
 docker-build:
 	$(DOCKERBUILD) --no-cache -t mpermperpisang/serenity .
