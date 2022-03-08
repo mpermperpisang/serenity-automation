@@ -6,6 +6,8 @@
     "sample": "mocha"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
     "@serenity-js/console-reporter": "^3.0.0-rc.13",
     "@serenity-js/core": "^3.0.0-rc.13",
     "@serenity-js/mocha": "^3.0.0-rc.13",

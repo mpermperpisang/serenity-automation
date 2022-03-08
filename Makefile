@@ -20,4 +20,4 @@ docker-alias-rm:
 	$(DOCKERRM) -f serenity_test
 
 folder:
-	 @mkdir -p 'report'
+	@mkdir -p 'report'
